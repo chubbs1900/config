@@ -1,0 +1,683 @@
+{
+    "TargetFile": "adventuredata.json",
+    "Author": "Nullex",
+    "RequireAll": true,
+    "Patches": [
+        {
+            "Path": "$.Gamble.GambleCosts",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "AxeSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "AxeDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "AtgeirFlint_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "AtgeirSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "BattleaxeBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "BattleaxeIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "BattleaxeSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "BattleaxeBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "BattleaxeDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "BattlehammerTrollbone_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "BattlehammerIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "BattlehammerSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "BattlehammerBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "BattlehammerDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "BowBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "BowTrollBone_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "GreatbowBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "GreatbowDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "GreatClub_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "ClaymoreBone_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "ClaymoreBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "ClaymoreChitin_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "ClaymoreIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "ClaymoreSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "ClaymoreBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "ClaymoreDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "CrossbowBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "CrossbowIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "CrossbowSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "CrossbowBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "FistSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "FistBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "FistDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "KnifeBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "KnifeIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "LanceDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "MaceFlint_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "MaceDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "SpearBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "SpearDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "SledgeStagbreaker_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "SledgeBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "SledgeIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "SledgeSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "SledgeBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "SledgeDemolisher_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "SwordChitin_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "SwordFlint_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "ThrowAxeFlint_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "ThrowAxeBronze_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "ThrowAxeIron_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "ThrowAxeSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "ThrowAxeBlackMetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "ThrowAxeDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "TridentBlackmetal_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "AxeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "AxeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "AtgeirNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "AtgeirSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "BattleaxeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "BattleaxeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "BattlehammerNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "BattlehammerSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "BowNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "BowSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "BowUllr_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "CrossbowNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "CrossbowSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "GreatbowNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "GreatbowSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "ClaymoreNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "ClaymoreSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "FistNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "FistSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "KnifeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "KnifeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "MaceNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "MaceSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "SpearNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "SpearSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "SledgeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "SledgeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "SwordNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "SwordSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "ThrowAxeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "ThrowAxeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "ShieldBronzeBanded_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "ShieldBronzeTower_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "ShieldSilverBuckler_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "ShieldTyraniumBuckler_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ShieldFlametalBuckler_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ShieldArcticSerpentscale_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ShieldNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "ShieldNjordTower_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "ShieldSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "ShieldSurtrTower_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "HelmetRazorback_TW",
+                    "CoinsCost": 100
+                },
+                {
+                    "Item": "HelmetBlackBear_TW",
+                    "CoinsCost": 200
+                },
+                {
+                    "Item": "HelmetGrizzlyBear_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "HelmetRotten_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "ArmorRottenChest_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "ArmorRottenLegs_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "CapeRotten_TW",
+                    "CoinsCost": 300
+                },
+                {
+                    "Item": "HelmetLox_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "ArmorLoxChest_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "ArmorLoxLegs_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "CapeLox_TW",
+                    "CoinsCost": 500
+                },
+                {
+                    "Item": "HelmetArcticBear_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "HelmetMammoth_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ArmorMammothChest_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ArmorMammothLegs_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "CapeMammoth_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "HelmetUllr_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ArmorUllrChest_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "ArmorUllrLegs_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "CapeArcticWolf_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "CapeAshenScale_TW",
+                    "CoinsCost": 900
+                },
+                {
+                    "Item": "PickaxeSilver_TW",
+                    "CoinsCost": 400
+                },
+                {
+                    "Item": "PickaxeDvergr_TW",
+                    "CoinsCost": 600
+                },
+                {
+                    "Item": "PickaxeNjord_TW",
+                    "CoinsCost": 800
+                },
+                {
+                    "Item": "PickaxeSurtr_TW",
+                    "CoinsCost": 700
+                },
+                {
+                    "Item": "GreatbowModer_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "KnifeWrench_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "ScytheVampiric_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "BattleaxeDragon_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "GlacierBlade_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "VolcanicBlade_TW ",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "ClaymoreColussus_TW",
+                    "CoinsCost": 10000
+                },
+                {
+                    "Item": "ClaymoreJotunn_TW ",
+                    "CoinsCost": 10000
+                }
+            ]
+        },
+        {
+            "Path": "$.TreasureMap.BiomeInfo",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Biome": "AshLands",
+                    "Cost": 1000,
+                    "ForestTokens": 100,
+                    "MinRadius": 500,
+                    "MaxRadius": 20000
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "Cost": 1200,
+                    "ForestTokens": 150,
+                    "MinRadius": 500,
+                    "MaxRadius": 20000
+                }
+            ]
+        },
+        {
+            "Path": "$.Bounties.Bosses",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Biome": "AshLands",
+                    "BossPrefab": "SeekerQueen",
+                    "BossDefeatedKey": "defeated_queen"
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "BossPrefab": "SeekerQueen",
+                    "BossDefeatedKey": "defeated_queen"
+                }
+            ]
+        },
+        {
+            "Path": "$.Bounties.Targets",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Biome": "AshLands",
+                    "TargetID": "AshenWarg_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "AshenDemon_TW",
+                            "Count": 4
+                        }
+                    ]
+                },
+                {
+                    "Biome": "AshLands",
+                    "TargetID": "AshenScorpid_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "AshenCrab_TW",
+                            "Count": 6
+                        }
+                    ]
+                },
+                {
+                    "Biome": "AshLands",
+                    "TargetID": "AshenDrake_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "AshenGolem_TW",
+                            "Count": 2
+                        }
+                    ]
+                },
+                {
+                    "Biome": "AshLands",
+                    "TargetID": "AshenMinotaur_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "AshenImp_TW",
+                            "Count": 10
+                        }
+                    ]
+                },
+                {
+                    "Biome": "AshLands",
+                    "TargetID": "AshenDimetrodon_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 3000
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "TargetID": "ArcticBear_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "ArcticWolf_TW",
+                            "Count": 4
+                        }
+                    ]
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "TargetID": "ArcticDrake_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "ArcticGolem_TW",
+                            "Count": 2
+                        }
+                    ]
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "TargetID": "ArcticCultist_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 4000,
+                    "Adds": [
+                        {
+                            "ID": "ArcticFenring_TW",
+                            "Count": 2
+                        }
+                    ]
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "TargetID": "ArcticMammoth_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 3000
+                },
+                {
+                    "Biome": "DeepNorth",
+                    "TargetID": "ArcticSerpent_TW",
+                    "RewardGold": 6,
+                    "RewardIron": 7,
+                    "RewardCoins": 3000
+                }
+            ]
+        }
+    ]
+}

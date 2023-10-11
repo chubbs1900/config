@@ -1,0 +1,4013 @@
+{
+   "$types" : {
+      "Digitalroot.Valheim.Bounties.Extensions.BountyTargetConfigExtensions+DigitalrootPatchFile, Digitalroot.Valheim.Bounties, Version=3.0.3.0, Culture=en-US, PublicKeyToken=null" : "1",
+      "Digitalroot.Valheim.Bounties.Extensions.BountyTargetConfigExtensions+DigitalrootPatch, Digitalroot.Valheim.Bounties, Version=3.0.3.0, Culture=en-US, PublicKeyToken=null" : "2",
+      "EpicLoot.Adventure.BountyTargetConfig, EpicLoot, Version=0.9.22.0, Culture=neutral, PublicKeyToken=null" : "3",
+      "EpicLoot.Adventure.BountyTargetAddConfig, EpicLoot, Version=0.9.22.0, Culture=neutral, PublicKeyToken=null" : "4"
+   },
+   "$type" : "1",
+   "Priority" : 100,
+   "TargetFile" : "adventuredata.json",
+   "Author" : "Digitalroot",
+   "RequireAll" : true,
+   "Patches" : [
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Boar",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Deer",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Draugr",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greyling",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greydwarf",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greydwarf_Elite",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greydwarf_Shaman",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Neck",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Deer",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Boar",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Boar",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Neck",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Neck",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greyling",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greyling",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 10,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Boar",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 15,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Boar",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Neck",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 15,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Neck",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greydwarf_Shaman",
+            "RewardGold" : 1,
+            "RewardIron" : 2,
+            "RewardCoins" : 25,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Greyling",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Greydwarf_Elite",
+            "RewardGold" : 3,
+            "RewardIron" : 10,
+            "RewardCoins" : 100,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Greydwarf_Shaman",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Greydwarf",
+                  "Count" : 4
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Greyling",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 25,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Skeleton_Poison",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 25,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Skeleton_Poison",
+            "RewardGold" : 1,
+            "RewardIron" : 1,
+            "RewardCoins" : 30,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Troll",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 1,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Lox",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 2,
+            "RewardIron" : 3,
+            "RewardCoins" : 100,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 2,
+            "RewardIron" : 5,
+            "RewardCoins" : 120,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 3,
+            "RewardIron" : 5,
+            "RewardCoins" : 120,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Boar",
+                  "Count" : 5
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Neck",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Meadows",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 5,
+            "RewardIron" : 8,
+            "RewardCoins" : 160,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Boar",
+                  "Count" : 5
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Neck",
+                  "Count" : 5
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Abomination",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Blob",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Ranged",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Leech",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Surtling",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Wraith",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Blob",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 35,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Blob",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Blob",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 6,
+            "RewardCoins" : 50,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton_Poison",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Ghost",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "BlobElite",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Leech",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 0,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Surtling",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Surtling",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Surtling",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 3,
+            "RewardCoins" : 80,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Ghost",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Draugr_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Skeleton_Poison",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 70,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 2,
+            "RewardIron" : 6,
+            "RewardCoins" : 190,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 130,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "gd_king",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 150,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 2,
+            "RewardIron" : 7,
+            "RewardCoins" : 210,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 2,
+            "RewardIron" : 8,
+            "RewardCoins" : 220,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Elite",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 2,
+            "RewardIron" : 9,
+            "RewardCoins" : 230,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 4,
+            "RewardIron" : 8,
+            "RewardCoins" : 220,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Swamp",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 4,
+            "RewardIron" : 11,
+            "RewardCoins" : 250,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Hatchling",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Fenring",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "StoneGolem",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wolf",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wolf",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wolf",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Hatchling",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Hatchling",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Surtling",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Draugr_Ranged",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 40,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Fenring",
+            "RewardGold" : 2,
+            "RewardIron" : 0,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Fenring",
+            "RewardGold" : 2,
+            "RewardIron" : 5,
+            "RewardCoins" : 110,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Wolf",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wolf",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 80,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Wolf",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "StoneGolem",
+            "RewardGold" : 2,
+            "RewardIron" : 0,
+            "RewardCoins" : 90,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "StoneGolem",
+            "RewardGold" : 3,
+            "RewardIron" : 7,
+            "RewardCoins" : 170,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "StoneGolem",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wraith",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 55,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Wraith",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 55,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 1,
+            "RewardIron" : 6,
+            "RewardCoins" : 130,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "gd_king",
+            "RewardGold" : 1,
+            "RewardIron" : 7,
+            "RewardCoins" : 150,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 7,
+            "RewardCoins" : 220,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 8,
+            "RewardCoins" : 240,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Hatchling",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 8,
+            "RewardCoins" : 240,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "StoneGolem",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 10,
+            "RewardCoins" : 260,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Hatchling",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 10,
+            "RewardCoins" : 260,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Draugr_Ranged",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 2,
+            "RewardIron" : 9,
+            "RewardCoins" : 250,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mountain",
+            "TargetID" : "Dragon",
+            "RewardGold" : 3,
+            "RewardIron" : 11,
+            "RewardCoins" : 290,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Deer",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf_Elite",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf_Shaman",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Skeleton_Poison",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Troll",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 20,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Ghost",
+            "RewardGold" : 0,
+            "RewardIron" : 2,
+            "RewardCoins" : 25,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf_Shaman",
+            "RewardGold" : 0,
+            "RewardIron" : 3,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 35,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf_Elite",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 25,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Troll",
+            "RewardGold" : 1,
+            "RewardIron" : 0,
+            "RewardCoins" : 55,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "Greydwarf_Shaman",
+            "RewardGold" : 1,
+            "RewardIron" : 4,
+            "RewardCoins" : 45,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Greydwarf",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 2,
+            "RewardIron" : 5,
+            "RewardCoins" : 185,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 2,
+            "RewardIron" : 7,
+            "RewardCoins" : 205,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 3,
+            "RewardIron" : 9,
+            "RewardCoins" : 225,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 3,
+            "RewardIron" : 9,
+            "RewardCoins" : 225,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "BlackForest",
+            "TargetID" : "gd_king",
+            "RewardGold" : 3,
+            "RewardIron" : 12,
+            "RewardCoins" : 255,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "BlobTar",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Deathsquito",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Goblin",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinArcher",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinBrute",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinShaman",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Lox",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Goblin",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 65,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Goblin",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 65,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Goblin",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 65,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Hatchling",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Lox",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 95,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Surtling",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Draugr_Ranged",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Skeleton",
+            "RewardGold" : 1,
+            "RewardIron" : 6,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Deathsquito",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Deathsquito",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Deathsquito",
+            "RewardGold" : 4,
+            "RewardIron" : 8,
+            "RewardCoins" : 65,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Deathsquito",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinBrute",
+            "RewardGold" : 4,
+            "RewardIron" : 0,
+            "RewardCoins" : 95,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinBrute",
+            "RewardGold" : 4,
+            "RewardIron" : 8,
+            "RewardCoins" : 135,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinBrute",
+            "RewardGold" : 4,
+            "RewardIron" : 10,
+            "RewardCoins" : 195,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinShaman",
+            "RewardGold" : 4,
+            "RewardIron" : 10,
+            "RewardCoins" : 215,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinShaman",
+            "RewardGold" : 5,
+            "RewardIron" : 15,
+            "RewardCoins" : 265,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinBrute",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Ghost",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Ghost",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 50,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 2,
+            "RewardIron" : 5,
+            "RewardCoins" : 80,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "gd_king",
+            "RewardGold" : 2,
+            "RewardIron" : 8,
+            "RewardCoins" : 90,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "gd_king",
+            "RewardGold" : 3,
+            "RewardIron" : 10,
+            "RewardCoins" : 100,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Dragon",
+            "RewardGold" : 3,
+            "RewardIron" : 9,
+            "RewardCoins" : 230,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Hatchling",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Dragon",
+            "RewardGold" : 4,
+            "RewardIron" : 12,
+            "RewardCoins" : 300,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Dragon",
+            "RewardGold" : 7,
+            "RewardIron" : 15,
+            "RewardCoins" : 400,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 7,
+            "RewardIron" : 15,
+            "RewardCoins" : 400,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 5,
+            "RewardIron" : 15,
+            "RewardCoins" : 350,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 6,
+            "RewardIron" : 20,
+            "RewardCoins" : 370,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "Bonemass",
+            "RewardGold" : 7,
+            "RewardIron" : 25,
+            "RewardCoins" : 550,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 4,
+            "RewardIron" : 15,
+            "RewardCoins" : 550,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 4,
+            "RewardIron" : 17,
+            "RewardCoins" : 580,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 5,
+            "RewardIron" : 25,
+            "RewardCoins" : 650,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 9,
+            "RewardIron" : 35,
+            "RewardCoins" : 850,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 9,
+            "RewardIron" : 35,
+            "RewardCoins" : 850,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 11,
+            "RewardIron" : 45,
+            "RewardCoins" : 1050,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 11,
+            "RewardIron" : 45,
+            "RewardCoins" : 1050,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 13,
+            "RewardIron" : 55,
+            "RewardCoins" : 1250,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 14,
+            "RewardIron" : 65,
+            "RewardCoins" : 1300,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 16,
+            "RewardIron" : 75,
+            "RewardCoins" : 1450,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Plains",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 16,
+            "RewardIron" : 80,
+            "RewardCoins" : 2050,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "gd_king",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "Surtling",
+            "RewardGold" : 2,
+            "RewardIron" : 6,
+            "RewardCoins" : 70,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "Surtling",
+            "RewardGold" : 2,
+            "RewardIron" : 6,
+            "RewardCoins" : 70,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Surtling",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "Surtling",
+            "RewardGold" : 2,
+            "RewardIron" : 6,
+            "RewardCoins" : 70,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Surtling",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Wraith",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "Surtling",
+            "RewardGold" : 2,
+            "RewardIron" : 6,
+            "RewardCoins" : 70,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Surtling",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Ghost",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 17,
+            "RewardIron" : 81,
+            "RewardCoins" : 2070,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Surtling",
+                  "Count" : 6
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 17,
+            "RewardIron" : 81,
+            "RewardCoins" : 2070,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinBrute",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinArcher",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinShaman",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 17,
+            "RewardIron" : 81,
+            "RewardCoins" : 2070,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinArcher",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 1
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinShaman",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 17,
+            "RewardIron" : 81,
+            "RewardCoins" : 2070,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinArcher",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Goblin",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinShaman",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "AshLands",
+            "TargetID" : "GoblinKing",
+            "RewardGold" : 17,
+            "RewardIron" : 81,
+            "RewardCoins" : 2070,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinBrute",
+                  "Count" : 3
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "GoblinShaman",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Troll",
+            "RewardGold" : 2,
+            "RewardIron" : 7,
+            "RewardCoins" : 80,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Troll",
+            "RewardGold" : 3,
+            "RewardIron" : 8,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Troll",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Troll",
+            "RewardGold" : 3,
+            "RewardIron" : 10,
+            "RewardCoins" : 100,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Troll",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Troll",
+            "RewardGold" : 4,
+            "RewardIron" : 12,
+            "RewardCoins" : 130,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Troll",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Dragon",
+            "RewardGold" : 17,
+            "RewardIron" : 82,
+            "RewardCoins" : 2080,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Dragon",
+                  "Count" : 1
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Dragon",
+            "RewardGold" : 17,
+            "RewardIron" : 82,
+            "RewardCoins" : 2080,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Troll",
+                  "Count" : 3
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Dragon",
+            "RewardGold" : 17,
+            "RewardIron" : 82,
+            "RewardCoins" : 2080,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "StoneGolem",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "DeepNorth",
+            "TargetID" : "Dragon",
+            "RewardGold" : 17,
+            "RewardIron" : 82,
+            "RewardCoins" : 2080,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Hatchling",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Ocean",
+            "TargetID" : "Serpent",
+            "RewardGold" : 0,
+            "RewardIron" : 4,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Ocean",
+            "TargetID" : "Serpent",
+            "RewardGold" : 1,
+            "RewardIron" : 6,
+            "RewardCoins" : 30,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Dverger",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Gjall",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Seeker",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "SeekerBrute",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Tick",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "SeekerQueen",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Ghost",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Wraith",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Ghost",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Wraith",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Ghost",
+                  "Count" : 4
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Wraith",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 60,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Ghost",
+                  "Count" : 2
+               },
+               {
+                  "$type" : "4",
+                  "ID" : "Skeleton",
+                  "Count" : 2
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "Eikthyr",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "SeekerQueen",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Eikthyr",
+                  "Count" : 5
+               }
+            ]
+         }
+      },
+      {
+         "$type" : "2",
+         "Path" : "$.Bounties.Targets",
+         "Action" : "Append",
+         "Value" : {
+            "$type" : "3",
+            "Biome" : "Mistlands",
+            "TargetID" : "SeekerQueen",
+            "RewardGold" : 1,
+            "RewardIron" : 5,
+            "RewardCoins" : 90,
+            "Adds" : [
+               {
+                  "$type" : "4",
+                  "ID" : "Bonemass",
+                  "Count" : 1
+               }
+            ]
+         }
+      }
+   ]
+}

@@ -1,0 +1,777 @@
+{
+  "TargetFile": "iteminfo.json",
+  "Author": "Nullex",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].Items",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreBone_TW", "ClaymoreBronze_TW", "ClaymoreChitin_TW", "ClaymoreIron_TW", "ClaymoreSilver_TW", "ClaymoreBlackmetal_TW", "ClaymoreDvergr_TW", "SwordChitin_TW", "SwordFlint_TW", "SwordScimitar_TW", "ClaymoreNjord_TW", "ClaymoreSurtr_TW", "SwordNjord_TW", "SwordSurtr_TW", "VolcanicBlade_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreBone_TW", "SwordFlint_TW" ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreBronze_TW","ClaymoreChitin_TW", "SwordChitin_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreIron_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreBlackmetal_TW", "SwordScimitar_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ClaymoreDvergr_TW", "ClaymoreNjord_TW", "ClaymoreSurtr_TW", "SwordNjord_TW", "SwordSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].Items",
+      "Action": "AppendAll",
+      "Value": ["AxeSilver_TW", "AxeDvergr_TW", "ThrowAxeFlint_TW", "ThrowAxeBronze_TW", "ThrowAxeIron_TW", "ThrowAxeSilver_TW", "ThrowAxeBlackMetal_TW", "ThrowAxeDvergr_TW", "AxeNjord_TW", "AxeSurtr_TW", "ThrowAxeNjord_TW", "ThrowAxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["ThrowAxeFlint_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ThrowAxeBronze_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ThrowAxeIron_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["AxeSilver_TW","ThrowAxeSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ThrowAxeBlackMetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["AxeDvergr_TW", "ThrowAxeDvergr_TW", "AxeNjord_TW", "AxeSurtr_TW", "ThrowAxeNjord_TW", "ThrowAxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeBronze_TW", "BattleaxeIron_TW", "BattleaxeSilver_TW", "BattleaxeBlackmetal_TW", "BattleaxeDvergr_TW", "ScytheVampiric_TW", "BattleaxeNjord_TW", "BattleaxeSurtr_TW", "BattleaxeDragon_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeBronze_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeIron_TW", "ScytheVampiric_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeDvergr_TW", "BattleaxeNjord_TW", "BattleaxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].Items",
+      "Action": "AppendAll",
+      "Value": ["KnifeBronze_TW", "KnifeIron_TW", "KnifeWrench_TW", "KnifeNjord_TW", "KnifeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["KnifeBronze_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["KnifeIron_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["KnifeNjord_TW", "KnifeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].Items",
+      "Action": "AppendAll",
+      "Value": ["FistSilver_TW", "FistBlackmetal_TW", "FistDvergr_TW", "FistNjord_TW", "FistSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["FistSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["FistBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["FistDvergr_TW", "FistNjord_TW", "FistSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].Items",
+      "Action": "AppendAll",
+      "Value": ["GreatClub_TW", "MaceFlint_TW", "MaceDvergr_TW", "MaceNjord_TW", "MaceSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["GreatClub_TW", "MaceFlint_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["MaceDvergr_TW", "MaceNjord_TW", "MaceSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerTrollbone_TW", "BattlehammerIron_TW", "BattlehammerSilver_TW", "BattlehammerBlackmetal_TW", "BattlehammerDvergr_TW", "SledgeStagbreaker_TW", "SledgeBronze_TW", "SledgeIron_TW", "SledgeSilver_TW", "SledgeBlackmetal_TW", "SledgeDemolisher_TW", "BattlehammerNjord_TW", "BattlehammerSurtr_TW", "SledgeNjord_TW", "SledgeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerTrollbone_TW", "SledgeStagbreaker_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["SledgeBronze_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerIron_TW", "SledgeIron_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerSilver_TW", "SledgeSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerBlackmetal_TW", "SledgeBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerDvergr_TW", "SledgeDemolisher_TW", "BattlehammerNjord_TW", "BattlehammerSurtr_TW", "SledgeNjord_TW", "SledgeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].Items",
+      "Action": "AppendAll",
+      "Value": ["AtgeirFlint_TW", "AtgeirSilver_TW", "TridentBlackmetal_TW", "AtgeirNjord_TW", "AtgeirSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["AtgeirFlint_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["AtgeirSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["TridentBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["AtgeirNjord_TW", "AtgeirSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].Items",
+      "Action": "AppendAll",
+      "Value": ["LanceDvergr_TW", "SpearBlackmetal_TW", "SpearDvergr_TW", "SpearNjord_TW", "SpearSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["SpearBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["LanceDvergr_TW", "SpearDvergr_TW", "SpearNjord_TW", "SpearSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].Items",
+      "Action": "AppendAll",
+      "Value": ["PickaxeSilver_TW", "PickaxeDvergr_TW", "PickaxeNjord_TW", "PickaxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["PickaxeSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Pickaxes')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["PickaxeDvergr_TW", "PickaxeNjord_TW", "PickaxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].Items",
+      "Action": "AppendAll",
+      "Value": ["BowBlackmetal_TW", "BowTrollBone_TW", "GreatbowBlackmetal_TW", "GreatbowDvergr_TW", "GreatbowModer_TW", "CrossbowBronze_TW", "CrossbowIron_TW", "CrossbowSilver_TW", "CrossbowBlackmetal_TW", "BowNjord_TW", "BowSurtr_TW", "BowUllr_TW", "CrossbowNjord_TW", "CrossbowSurtr_TW", "GreatbowNjord_TW", "GreatbowSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["BowTrollBone_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["CrossbowBronze_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["CrossbowIron_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["GreatbowModer_TW", "CrossbowSilver_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["BowBlackmetal_TW", "GreatbowBlackmetal_TW", "CrossbowBlackmetal_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["GreatbowDvergr_TW", "BowNjord_TW", "BowSurtr_TW", "BowUllr_TW", "CrossbowNjord_TW", "CrossbowSurtr_TW", "GreatbowNjord_TW", "GreatbowSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldSilverBuckler_TW", "ShieldTyraniumBuckler_TW", "ShieldFlametalBuckler_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["ShieldSilverBuckler_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ShieldTyraniumBuckler_TW", "ShieldFlametalBuckler_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldBronzeBanded_TW", "ShieldNjord_TW", "ShieldSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ShieldBronzeBanded_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ShieldNjord_TW", "ShieldSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldBronzeTower_TW", "ShieldArcticSerpentscale_TW", "ShieldNjordTower_TW", "ShieldSurtrTower_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["ShieldBronzeTower_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ShieldArcticSerpentscale_TW", "ShieldNjordTower_TW", "ShieldSurtrTower_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorRottenChest_TW", "ArmorLoxChest_TW", "ArmorMammothChest_TW", "ArmorUllrChest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ArmorRottenChest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ArmorLoxChest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ArmorMammothChest_TW", "ArmorUllrChest_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorRottenLegs_TW", "ArmorLoxLegs_TW", "ArmorMammothLegs_TW", "ArmorUllrLegs_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["ArmorRottenLegs_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["ArmorLoxLegs_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["ArmorMammothLegs_TW", "ArmorUllrLegs_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["HelmetRazorback_TW", "HelmetBlackBear_TW", "HelmetGrizzlyBear_TW", "HelmetRotten_TW", "HelmetLox_TW", "HelmetArcticBear_TW", "HelmetMammoth_TW", "HelmetUllr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": ["HelmetRazorback_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": ["HelmetBlackBear_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["HelmetRotten_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": ["HelmetGrizzlyBear_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["HelmetLox_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["HelmetArcticBear_TW", "HelmetMammoth_TW", "HelmetUllr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["CapeRotten_TW", "CapeLox_TW", "CapeMammoth_TW", "CapeArcticWolf_TW", "CapeAshenScale_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": ["CapeRotten_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": ["CapeLox_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": ["CapeMammoth_TW", "CapeArcticWolf_TW", "CapeAshenScale_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].Items",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Torches')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].Items",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Tools')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].Items",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": [  ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": [ ]
+    }
+  ]
+}

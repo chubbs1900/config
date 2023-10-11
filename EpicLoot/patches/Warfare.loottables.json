@@ -1,0 +1,2971 @@
+{
+    "TargetFile": "loottables.json",
+    "Author": "Nullex",
+    "RequireAll": true,
+    "Patches": [
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier0Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "AtgeirFlint_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "GreatClub_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "MaceFlint_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SwordFlint_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeFlint_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier1Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "ClaymoreBone_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeStagbreaker_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier2Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "BattleaxeBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattlehammerTrollbone_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CrossbowBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "KnifeBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeBronze_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreChitin_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SwordChitin_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier3Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "BattleaxeIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattlehammerIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CrossbowIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "KnifeIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeIron_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier4Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "AxeSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "AtgeirSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattleaxeSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattlehammerSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BowTrollBone_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CrossbowSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "FistSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeSilver_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier5Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "BattleaxeBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattlehammerBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BowBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "GreatbowBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CrossbowBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "FistBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SpearBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeBlackMetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "TridentBlackmetal_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier6Weapons')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "AxeDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattleaxeDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "BattlehammerDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "GreatbowDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ClaymoreDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "FistDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "LanceDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "MaceDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SpearDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "SledgeDemolisher_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ThrowAxeDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Name": "Tier4Tools",
+                    "Loot": [
+                        {
+                            "Item": "PickaxeSilver_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                38,
+                                50,
+                                8,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier6Tools')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "PickaxeDvergr_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Name": "Tier7Tools",
+                    "Loot": [
+                        {
+                            "Item": "PickaxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                38,
+                                50,
+                                8,
+                                4
+                            ]
+                        },
+                        {
+                            "Item": "PickaxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                38,
+                                50,
+                                8,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier1Armor')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "HelmetRazorback_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier2Armor')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "HelmetBlackBear_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier3Armor')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "HelmetRotten_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ArmorRottenChest_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ArmorRottenLegs_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CapeRotten_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "HelmetGrizzlyBear_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier5Armor')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "HelmetLox_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ArmorLoxChest_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ArmorLoxLegs_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "CapeLox_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets[?(@.Name == 'Tier2Shields')].Loot",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Item": "ShieldBronzeBanded_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "ShieldBronzeTower_TW",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "Item": "",
+                    "Weight": 1,
+                    "Rarity": [
+                        38,
+                        50,
+                        8,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.ItemSets",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Name": "Tier7Weapons",
+                    "Loot": [
+                        {
+                            "Item": "AxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                507
+                            ]
+                        },
+                        {
+                            "Item": "PickaxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "AtgeirSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattleaxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattlehammerSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BowSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "GreatbowSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "FistSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "KnifeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "MaceSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SpearSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SledgeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SwordSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ThrowAxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier7Armor",
+                    "Loot": [
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeAshenScale_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier7Shields",
+                    "Loot": [
+                        {
+                            "Item": "ShieldFlametalBuckler_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldArcticSerpentscale_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldSurtrTower_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier7Everything",
+                    "Loot": [
+                        {
+                            "Item": "Tier7Weapons"
+                        },
+                        {
+                            "Item": "Tier7Armor"
+                        },
+                        {
+                            "Item": "Tier7Shields"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier8Weapons",
+                    "Loot": [
+                        {
+                            "Item": "AxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "PickaxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "AtgeirNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattleaxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattlehammerNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BowNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "GreatbowNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "FistNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "KnifeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "MaceNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SpearNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SledgeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SwordNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ThrowAxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier8Armor",
+                    "Loot": [
+                        {
+                            "Item": "HelmetMammoth_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorMammothChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorMammothLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeMammoth_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeArcticWolf_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier8Shields",
+                    "Loot": [
+                        {
+                            "Item": "ShieldTyraniumBuckler_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldArcticSerpentscale_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldNjordTower_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tier8Everything",
+                    "Loot": [
+                        {
+                            "Item": "Tier8Weapons"
+                        },
+                        {
+                            "Item": "Tier8Armor"
+                        },
+                        {
+                            "Item": "Tier8Shields"
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierAshlandWeapons",
+                    "Loot": [
+                        {
+                            "Item": "ClaymoreColussus_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattleaxeDragon_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "VolcanicBlade_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "AtgeirSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattleaxeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattlehammerSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "GreatbowSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "FistSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "KnifeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "MaceSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SpearSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SledgeSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SwordSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierAshlandArmor",
+                    "Loot": [
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeAshenScale_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierAshlandShields",
+                    "Loot": [
+                        {
+                            "Item": "ShieldSurtr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldSurtrTower_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierAshlandEverything",
+                    "Loot": [
+                        {
+                            "Item": "TierAshlandWeapons"
+                        },
+                        {
+                            "Item": "TierAshlandArmor"
+                        },
+                        {
+                            "Item": "TierAshlandShields"
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierDeepNorthWeapons",
+                    "Loot": [
+                        {
+                            "Item": "GlacierBlade_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreJotunn_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreColussus_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "AtgeirNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattleaxeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "BattlehammerNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "GreatbowNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ClaymoreNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "FistNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "KnifeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "MaceNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SpearNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SledgeNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "SwordNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierDeepNorthArmor",
+                    "Loot": [
+                        {
+                            "Item": "HelmetMammoth_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorMammothChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorMammothLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeMammoth_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "HelmetUllr_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrChest_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ArmorUllrLegs_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "CapeArcticWolf_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierDeepNorthShields",
+                    "Loot": [
+                        {
+                            "Item": "ShieldNjord_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        },
+                        {
+                            "Item": "ShieldNjordTower_TW",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                45,
+                                50
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "TierDeepNorthEverything",
+                    "Loot": [
+                        {
+                            "Item": "TierDeepNorthWeapons"
+                        },
+                        {
+                            "Item": "TierDeepNorthArmor"
+                        },
+                        {
+                            "Item": "TierDeepNorthShields"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "$.LootTables",
+            "Action": "AppendAll",
+            "Value": [
+                {
+                    "Object": "Tier8Mob",
+                    "LeveledLoot": [
+                        {
+                            "Level": 1,
+                            "Drops": [
+                                [
+                                    0,
+                                    70
+                                ],
+                                [
+                                    1,
+                                    28
+                                ],
+                                [
+                                    2,
+                                    2
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier6Everything",
+                                    "Weight": 10,
+                                    "Rarity": [
+                                        0,
+                                        15,
+                                        70,
+                                        15
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        15,
+                                        70,
+                                        15
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 2,
+                            "Drops": [
+                                [
+                                    0,
+                                    50
+                                ],
+                                [
+                                    1,
+                                    46
+                                ],
+                                [
+                                    2,
+                                    3
+                                ],
+                                [
+                                    3,
+                                    1
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier6Everything",
+                                    "Weight": 5,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Drops": [
+                                [
+                                    0,
+                                    30
+                                ],
+                                [
+                                    1,
+                                    64
+                                ],
+                                [
+                                    2,
+                                    4
+                                ],
+                                [
+                                    3,
+                                    2
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier6Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        75,
+                                        25
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        75,
+                                        25
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Drops": [
+                                [
+                                    0,
+                                    5
+                                ],
+                                [
+                                    1,
+                                    87
+                                ],
+                                [
+                                    2,
+                                    5
+                                ],
+                                [
+                                    3,
+                                    3
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier6Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 5,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Drops": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    1,
+                                    86
+                                ],
+                                [
+                                    2,
+                                    10
+                                ],
+                                [
+                                    3,
+                                    4
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier6Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        65,
+                                        35
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 10,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        65,
+                                        35
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Drops": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    1,
+                                    80
+                                ],
+                                [
+                                    2,
+                                    15
+                                ],
+                                [
+                                    3,
+                                    5
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        60,
+                                        40
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Object": "Tier9Mob",
+                    "LeveledLoot": [
+                        {
+                            "Level": 1,
+                            "Drops": [
+                                [
+                                    0,
+                                    70
+                                ],
+                                [
+                                    1,
+                                    28
+                                ],
+                                [
+                                    2,
+                                    2
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 10,
+                                    "Rarity": [
+                                        0,
+                                        15,
+                                        70,
+                                        15
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        15,
+                                        70,
+                                        15
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 2,
+                            "Drops": [
+                                [
+                                    0,
+                                    50
+                                ],
+                                [
+                                    1,
+                                    46
+                                ],
+                                [
+                                    2,
+                                    3
+                                ],
+                                [
+                                    3,
+                                    1
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 5,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Drops": [
+                                [
+                                    0,
+                                    30
+                                ],
+                                [
+                                    1,
+                                    64
+                                ],
+                                [
+                                    2,
+                                    4
+                                ],
+                                [
+                                    3,
+                                    2
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        75,
+                                        25
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        75,
+                                        25
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Drops": [
+                                [
+                                    0,
+                                    5
+                                ],
+                                [
+                                    1,
+                                    87
+                                ],
+                                [
+                                    2,
+                                    5
+                                ],
+                                [
+                                    3,
+                                    3
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 5,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Drops": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    1,
+                                    86
+                                ],
+                                [
+                                    2,
+                                    10
+                                ],
+                                [
+                                    3,
+                                    4
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier7Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        65,
+                                        35
+                                    ]
+                                },
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 10,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        65,
+                                        35
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Drops": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    1,
+                                    80
+                                ],
+                                [
+                                    2,
+                                    15
+                                ],
+                                [
+                                    3,
+                                    5
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "Tier8Everything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        60,
+                                        40
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Object": "AshenWarg_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenCrab_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenScorpid_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenDimetrodon_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenDrake_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenImp_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenDemon_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenGolem_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "AshenMinotaur_TW",
+                    "RefObject": "Tier8Mob"
+                },
+                {
+                    "Object": "ArcticWolf_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticBear_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticSerpent_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticMammoth_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticDrake_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticFenring_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticCultist_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "ArcticGolem_TW",
+                    "RefObject": "Tier9Mob"
+                },
+                {
+                    "Object": "BossSythrak_TW",
+                    "LeveledLoot": [
+                        {
+                            "Level": 1,
+                            "Drops": [
+                                [
+                                    3,
+                                    20
+                                ],
+                                [
+                                    4,
+                                    60
+                                ],
+                                [
+                                    5,
+                                    15
+                                ],
+                                [
+                                    6,
+                                    5
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "TierAshlandEverything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 2,
+                            "Drops": [
+                                [
+                                    4,
+                                    70
+                                ],
+                                [
+                                    5,
+                                    20
+                                ],
+                                [
+                                    6,
+                                    10
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "BossSythrak_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Drops": [
+                                [
+                                    4,
+                                    45
+                                ],
+                                [
+                                    5,
+                                    40
+                                ],
+                                [
+                                    6,
+                                    15
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "BossSythrak_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        60,
+                                        40
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Drops": [
+                                [
+                                    4,
+                                    25
+                                ],
+                                [
+                                    5,
+                                    50
+                                ],
+                                [
+                                    6,
+                                    25
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "BossSythrak_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        40,
+                                        60
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Drops": [
+                                [
+                                    4,
+                                    5
+                                ],
+                                [
+                                    5,
+                                    60
+                                ],
+                                [
+                                    6,
+                                    30
+                                ],
+                                [
+                                    7,
+                                    5
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "BossSythrak_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        20,
+                                        80
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Drops": [
+                                [
+                                    5,
+                                    50
+                                ],
+                                [
+                                    6,
+                                    40
+                                ],
+                                [
+                                    7,
+                                    10
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "BossSythrak_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        0,
+                                        100
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Object": "JotunnBrute_TW",
+                    "LeveledLoot": [
+                        {
+                            "Level": 1,
+                            "Drops": [
+                                [
+                                    1,
+                                    50
+                                ],
+                                [
+                                    2,
+                                    35
+                                ],
+                                [
+                                    3,
+                                    5
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "TierDeepNorthEverything",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        80,
+                                        20
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 2,
+                            "Drops": [
+                                [
+                                    1,
+                                    50
+                                ],
+                                [
+                                    2,
+                                    40
+                                ],
+                                [
+                                    3,
+                                    10
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "JotunnBrute_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        70,
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Drops": [
+                                [
+                                    1,
+                                    45
+                                ],
+                                [
+                                    2,
+                                    40
+                                ],
+                                [
+                                    3,
+                                    15
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "JotunnBrute_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        60,
+                                        40
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Drops": [
+                                [
+                                    2,
+                                    25
+                                ],
+                                [
+                                    3,
+                                    50
+                                ],
+                                [
+                                    4,
+                                    25
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "JotunnBrute_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        40,
+                                        60
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Drops": [
+                                [
+                                    2,
+                                    5
+                                ],
+                                [
+                                    3,
+                                    60
+                                ],
+                                [
+                                    4,
+                                    30
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "JotunnBrute_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        20,
+                                        80
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Drops": [
+                                [
+                                    2,
+                                    5
+                                ],
+                                [
+                                    3,
+                                    40
+                                ],
+                                [
+                                    4,
+                                    50
+                                ]
+                            ],
+                            "Loot": [
+                                {
+                                    "Item": "JotunnBrute_TW.1",
+                                    "Weight": 1,
+                                    "Rarity": [
+                                        0,
+                                        0,
+                                        0,
+                                        100
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Object": "TreasureMapChest_AshLands",
+                    "Drops": [
+                        [
+                            3,
+                            80
+                        ],
+                        [
+                            4,
+                            15
+                        ],
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    "Loot": [
+                        {
+                            "Item": "Tier6Everything",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                70,
+                                25
+                            ]
+                        },
+                        {
+                            "Item": "Tier7Everything",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                70,
+                                25
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Object": "TreasureMapChest_DeepNorth",
+                    "Drops": [
+                        [
+                            3,
+                            80
+                        ],
+                        [
+                            4,
+                            15
+                        ],
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    "Loot": [
+                        {
+                            "Item": "Tier7Everything",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                70,
+                                25
+                            ]
+                        },
+                        {
+                            "Item": "Tier8Everything",
+                            "Weight": 1,
+                            "Rarity": [
+                                0,
+                                5,
+                                70,
+                                25
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
